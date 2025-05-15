@@ -19,6 +19,5 @@ fi
 echo "✅ 準備將 $FILE 推送到 GitHub main 分支..."
 git add "$FILE"
 git commit -m "$MESSAGE"
-git push origin main
-
+git push origin HEAD:master
 echo "🎉 推送完成！"
